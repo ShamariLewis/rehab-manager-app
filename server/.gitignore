@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sw?
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+*.lcov
+
+# MongoDB local data (if any)
+dump/
+data/
