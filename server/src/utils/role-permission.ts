@@ -25,6 +25,18 @@ export const RolePermissions: Record<RoleType, Array<PermissionType>> = {
     Permissions.EDIT_TASK,
     Permissions.DELETE_TASK,
 
+    Permissions.CREATE_MILESTONE,
+    Permissions.EDIT_MILESTONE,
+    Permissions.DELETE_MILESTONE,
+
+    Permissions.CREATE_FINANCE,
+    Permissions.EDIT_FINANCE,
+    Permissions.DELETE_FINANCE,
+
+    Permissions.CREATE_CONTACT,
+    Permissions.EDIT_CONTACT,
+    Permissions.DELETE_CONTACT,
+
     Permissions.VIEW_ONLY,
   ],
   ADMIN: [
@@ -38,6 +50,10 @@ export const RolePermissions: Record<RoleType, Array<PermissionType>> = {
     Permissions.EDIT_TASK,
     Permissions.DELETE_TASK,
 
+    Permissions.CREATE_MILESTONE,
+    Permissions.EDIT_MILESTONE,
+    Permissions.DELETE_MILESTONE,
+
     Permissions.MANAGE_WORKSPACE_SETTINGS,
     Permissions.VIEW_ONLY,
   ],
@@ -45,5 +61,7 @@ export const RolePermissions: Record<RoleType, Array<PermissionType>> = {
     Permissions.VIEW_ONLY,
     Permissions.CREATE_TASK,
     Permissions.EDIT_TASK,
+    Permissions.CREATE_MILESTONE,
+    Permissions.EDIT_MILESTONE,
   ],
 };
