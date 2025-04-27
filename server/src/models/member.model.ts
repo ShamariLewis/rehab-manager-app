@@ -21,7 +21,7 @@ const memberSchema = new Schema<MemberDocument>(
       required: true,
     },
     role: {
-      types: Schema.Types.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "Role",
       required: true,
     },
